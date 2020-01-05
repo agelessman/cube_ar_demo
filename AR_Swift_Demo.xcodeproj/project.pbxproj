@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		CE306E1623B9927100794FDD /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE306E1523B9927100794FDD /* Plane.swift */; };
+		CE70194B23C1C75000C08293 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CE70194923C1C75000C08293 /* README.md */; };
+		CE70194C23C1C75000C08293 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = CE70194A23C1C75000C08293 /* LICENSE */; };
 		CEAB55E523B45DA70019D843 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAB55E423B45DA70019D843 /* AppDelegate.swift */; };
 		CEAB55E723B45DA70019D843 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAB55E623B45DA70019D843 /* art.scnassets */; };
 		CEAB55E923B45DA70019D843 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAB55E823B45DA70019D843 /* ViewController.swift */; };
@@ -29,6 +31,8 @@
 
 /* Begin PBXFileReference section */
 		CE306E1523B9927100794FDD /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		CE70194923C1C75000C08293 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CE70194A23C1C75000C08293 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CEAB55E223B45DA70019D843 /* CubeARDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CubeARDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAB55E423B45DA70019D843 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEAB55E623B45DA70019D843 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 		CE3EA59323B216190065B5FE = {
 			isa = PBXGroup;
 			children = (
+				CE70194A23C1C75000C08293 /* LICENSE */,
+				CE70194923C1C75000C08293 /* README.md */,
 				CEAB55E323B45DA70019D843 /* CubeARDemo */,
 				CEAB55FA23B45DA80019D843 /* CubeARDemoUITests */,
 				CE3EA59D23B216190065B5FE /* Products */,
@@ -183,8 +189,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE70194C23C1C75000C08293 /* LICENSE in Resources */,
 				CEAB55E723B45DA70019D843 /* art.scnassets in Resources */,
 				CEAB55F123B45DA80019D843 /* LaunchScreen.storyboard in Resources */,
+				CE70194B23C1C75000C08293 /* README.md in Resources */,
 				CEAB55EE23B45DA80019D843 /* Assets.xcassets in Resources */,
 				CEAB55EC23B45DA70019D843 /* Main.storyboard in Resources */,
 			);
